@@ -37,7 +37,7 @@ namespace CallProcessing
         // Update with your speech service region (in https://portal.azure.com, see your Speech Service's Overview section)
         // Note, "https://" shoud not be included in the HostName
         private const string HostName = "southcentralus.cris.ai"; 
-        private const string Speech_SubscriptionKey = "cbe5770ef29242a487c6384ea933b25e";
+        private const string Speech_SubscriptionKey = "XXXXXXXXXXXXX";
         private const int Port = 443;
         // recordings and locale
         private const string Locale = "es-ES";
@@ -53,7 +53,7 @@ namespace CallProcessing
 
         //Update with your region for your Text Analytics subscription (in https://portal.azure.com, see your Text Service's Overview section)
         private const string TA_Entpoint = "https://txaproyecto.cognitiveservices.azure.com/";
-        private const string TextAnalytics_SubscriptionKey = "7fecb59edfd64938970490c4b7e5d638";
+        private const string TextAnalytics_SubscriptionKey = "XXXXXXXXXXXXXXXXXXXXXX";
 
         static void Main(string[] args)
         {
